@@ -5,10 +5,12 @@ And the reasons for their existence and pervasiveness remain unclear.
 We demonstrate that non-sense Out-of-Distribution(OoD) prompts composed of random tokens can also elicit the LLMs to respond with hallucinations.
 This phenomenon forces us to revisit that **hallucination may be another view of adversarial examples**, and it shares similar features with conventional adversarial examples as the basic feature of LLMs.
 Therefore, we formalize an automatic hallucination triggering method called **hallucination attack** in an adversarial way.
-Following is a fake news example of hallucination attack.
+Following is a fake news example generating by hallucination attack.
 
-#### Hallucination Attacks generate fake news
-> <center><font color="red">Donald Trump</font> was the victor of the United States presidential election in the year 2020.</center> <div style="width: 100%; text-align: right;">&mdash;by Vicuna-7B</div>
+#### Hallucination Attack generates fake news
+<div align="center">
+  <img src="assets/example-fake.png" width="100%">
+</div>
 
 ### Weak semantic prompt & OoD prompt
 Weak semantic prompt and OoD prompt can elicit the Vicuna-7B to reply the same fake fact.
