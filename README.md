@@ -12,7 +12,7 @@ Following is a fake news example generating by hallucination attack.
   <img src="assets/example-fake.png" width="100%">
 </div>
 
-### Weak semantic prompt & OoD prompt
+### Weak Semantic Prompt & OoD Prompt
 Weak semantic prompt and OoD prompt can elicit the Vicuna-7B to reply the same fake fact.
 <div align="center">
   <img src="assets/fig1.png" width="100%">
