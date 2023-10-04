@@ -1,4 +1,4 @@
-## LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples [[pdf]](https://github.com/PKU-YuanGroup/Hallucination-Attack)
+## LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples [[pdf]](http://arxiv.org/abs/2310.01469)
 
 LLMs (e.g., GPT-3.5, LLaMA, and PaLM) suffer from **hallucination**&mdash;fabricating non-existent facts to cheat users without perception.
 And the reasons for their existence and pervasiveness remain unclear.
