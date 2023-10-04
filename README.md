@@ -41,3 +41,14 @@ We substitute tokens via gradient-based token replacing strategy, replacing toke
   <img src="assets/ood-attack.jpg" width="100%">
 </div>
 
+### Citation
+```BibTeX
+@misc{yao2023llm,
+      title={LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples}, 
+      author={Jia-Yu Yao and Kun-Peng Ning and Zhen-Hui Liu and Mu-Nan Ning and Li Yuan},
+      year={2023},
+      eprint={2310.01469},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
