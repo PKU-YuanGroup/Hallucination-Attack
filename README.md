@@ -42,9 +42,17 @@ We substitute tokens via gradient-based token replacing strategy, replacing toke
 </div>
 
 ### Demo
+Clone this repo and run the code.
+```bash
+$ cd Hallucination-Attack
+```
+Install the requirements.
+```bash
+$ pip install -r requirements.txt
+```
 Run local demo of hallucination attacked prompt.
 ```bash
-python demo.py
+$ python demo.py
 ```
 
 ### Citation
