@@ -41,6 +41,12 @@ We substitute tokens via gradient-based token replacing strategy, replacing toke
   <img src="assets/ood-attack.jpg" width="100%">
 </div>
 
+### Demo
+Run local demo of hallucination attacked prompt.
+```bash
+python demo.py
+```
+
 ### Citation
 ```BibTeX
 @misc{yao2023llm,
