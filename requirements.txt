@@ -1,5 +1,8 @@
-transformers>=4.28.1
 torch>=1.13.0
-ml_collections
+transformers>=4.28.1
+tqdm
 xformers
+protobuf
+accelerate
 sentencepiece
+ml_collections
