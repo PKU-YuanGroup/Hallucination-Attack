@@ -2,16 +2,17 @@
 
 <div align="center">
     <a href="http://arxiv.org/abs/2310.01469">
-        <img alt="arXiv" src="https://img.shields.io/badge/Arxiv-2310.01469-b31b1b.svg?logo=arXiv">
+        <img alt="arXiv" src="https://img.shields.io/badge/Arxiv-2310.01469-b31b1b.svg?logo=arXiv" />
     </a>
     <a href="https://github.com/PKU-YuanGroup/Hallucination-Attack/blob/master/LICENSE">
-        <img alt="License" src="https://img.shields.io/badge/Code%20License-MIT-yellow">
+        <img alt="License" src="https://img.shields.io/badge/Code%20License-MIT-yellow" />
     </a>
     <a href="https://zhuanlan.zhihu.com/p/661444210">
-        <img alt="zhihu" src="https://img.shields.io/badge/知乎-0084FF">
+        <img alt="zhihu" src="https://img.shields.io/badge/知乎-0084FF" />
     </a>
 </div>
 
+### Brief Intro
 LLMs (e.g., GPT-3.5, LLaMA, and PaLM) suffer from **hallucination**&mdash;fabricating non-existent facts to cheat users without perception.
 And the reasons for their existence and pervasiveness remain unclear.
 We demonstrate that non-sense Out-of-Distribution(OoD) prompts composed of random tokens can also elicit the LLMs to respond with hallucinations.
