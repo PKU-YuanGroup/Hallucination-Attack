@@ -4,10 +4,10 @@ from utils import random_init
 
 model_name = 'vicuna' ### [vicuna, llama2, baichuan, internlm, chatglm, ziya]
 
-###1. OoD Attack (initialized from random tokens)
+### 1. OoD Attack (initialized from random tokens)
 init_input = random_init(model_name, length=20)
 
-###2. Weak Semantic Attack (initialized from the raw sentence)
+### 2. Weak Semantic Attack (initialized from the raw sentence)
 # init_input = 'Who was the victor of the United States presidential election in the year 2020?'
 
 target = 'Donald Trump was the victor of the United States presidential election in the year 2020.'
