@@ -25,17 +25,11 @@ Following is a fake news example generating by hallucination attack.
   <img src="assets/example-fake.png" width="100%">
 </div>
 
-### Weak Semantic Prompt & OoD Prompt
-Weak semantic prompt and OoD prompt can elicit the Vicuna-7B to reply the same fake fact.
+#### Weak semantic prompt and OoD prompt can elicit the Vicuna-7B to reply the same fake fact.
 <div align="center">
   <img src="assets/fig1.png" width="100%">
 </div>
 
-### What Leads to Hallucination
-We record some important milestones during the optimization process. We find that some “trigger” tokens are semantically induced, such as replacing “cabe” with “Barry”, as we hope the LLMs can ultimately output “The founder of Apple is Barry Diller”. However, many token swaps often have no semanticity, like “junl→empress” and “decidOsais→decidareais”. As a result, we finally optimize a seemingly meaningless prompt for humans, which however elicits the LLMs to respond with pre-defined hallucinations.
-<div align="center">
-  <img src="assets/fig2.png" width="100%">
-</div>
 
 ### The Pipeline of Hallucination Attack 
 We substitute tokens via gradient-based token replacing strategy, replacing token reaching smaller negative log-likelihood loss, and induce LLM within hallucinations.
@@ -43,18 +37,28 @@ We substitute tokens via gradient-based token replacing strategy, replacing toke
   <img src="assets/fig3.png" width="100%">
 </div>
 
-### Results of hallucination attack
-#### - Weak Semantic Attack
+### Results on Multiple LLMs
+#### - Vicuna-7B
 <div align="center">
   <img src="assets/weak-semantic-attack.jpg" width="100%">
 </div>
 
-#### - OoD Attack
+#### - LLaMA-7B
 <div align="center">
-  <img src="assets/ood-attack.jpg" width="100%">
+  <img src="assets/llama.png" width="100%">
 </div>
 
-### Usage
+#### - Baichuan-7B-Chat
+<div align="center">
+  <img src="assets/Baichuan2-7B.png" width="100%">
+</div>
+
+#### - InternLM-7B
+<div align="center">
+  <img src="assets/InternLM-7B.png" width="100%">
+</div>
+
+### Quick Start
 #### Models
 You may config your own base models and their hyper-parameters within `config.py`. Then, you could attack the models or run our demo cases.
 
