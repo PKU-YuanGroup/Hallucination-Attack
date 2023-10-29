@@ -84,12 +84,10 @@ $ python main.py
 
 ### Citation
 ```BibTeX
-@misc{yao2023llm,
-      title={LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples}, 
-      author={Jia-Yu Yao and Kun-Peng Ning and Zhen-Hui Liu and Mu-Nan Ning and Li Yuan},
-      year={2023},
-      eprint={2310.01469},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{yao2023llm,
+  title={LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples},
+  author={Yao, Jia-Yu and Ning, Kun-Peng and Liu, Zhen-Hui and Ning, Mu-Nan and Yuan, Li},
+  journal={arXiv preprint arXiv:2310.01469},
+  year={2023}
 }
 ```
