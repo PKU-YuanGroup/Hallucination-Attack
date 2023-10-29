@@ -43,7 +43,7 @@ We substitute tokens via gradient-based token replacing strategy, replacing toke
   <img src="assets/weak-semantic-attack.jpg" width="100%">
 </div>
 
-#### - LLaMA-7B
+#### - LLaMA2-7B
 <div align="center">
   <img src="assets/llama.png" width="100%">
 </div>
@@ -59,7 +59,7 @@ We substitute tokens via gradient-based token replacing strategy, replacing toke
 </div>
 
 ### Quick Start
-#### Models
+#### Setup
 You may config your own base models and their hyper-parameters within `config.py`. Then, you could attack the models or run our demo cases.
 
 #### Demo
